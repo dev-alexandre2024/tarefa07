@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #bababa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+ul {
+    display: inline-flex;
+    margin: 20px;
+    padding: 10px 20px;
+    line-height: 1.5;
+    list-style: none;
+    gap: 20px;
+
+}
+ul li{
+    padding: 5px;
+}
+main {}
+
+footer {}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+    flex-direction: row;
+}
